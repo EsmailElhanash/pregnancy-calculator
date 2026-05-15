@@ -1,26 +1,5 @@
 # Pregnancy Calculator (HamilGuide)
 
-Flutter app project.
+HamilGuide is a Flutter mobile app for Arabic-speaking pregnancy users. It helps calculate pregnancy progress, estimate the expected delivery date, and show the current pregnancy week using either Gregorian or Hijri dates.
 
-## Requirements
-- Flutter SDK (pubspec targets Dart < 3.0)
-- Android Studio / Xcode as needed
-
-
-Note: this project targets a legacy Flutter/Dart toolchain (Dart < 3.0). Modernizing to Flutter 3+ will require dependency and code updates.
-
-## Run (Debug)
-```bash
-flutter pub get
-flutter run
-```
-
-## Secrets
-This repo keeps secrets out of git. Provide the following locally:
-- `android/app/google-services.json` (Firebase config)
-- `android/key.properties` (signing config)
-- `android/app/src/key.jks` (keystore)
-
-Templates:
-- `android/app/google-services.json.example`
-- `android/key.properties.example`
+The app also includes week-by-week pregnancy guidance, local saved pregnancy data, scheduled weekly notifications, an embedded HamilGuide website tab, social links, app rating prompts, and mobile ad integration.
